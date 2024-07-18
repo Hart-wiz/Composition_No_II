@@ -1,0 +1,32 @@
+/* styling the header */
+header h1 {
+  color: blueviolet;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+/* styling the main  */
+.main {
+  background-color: black;
+  width: 400px;
+  height: 500px;
+  padding: 0.6rem;
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 0.8fr 2fr;
+}
+
+.red {
+  background-color: red;
+}
+.white {
+  background-color: white;
+}
+#bottomlft {
+  grid-row: span 2;
+}
+.blue {
+  background-color: blue;
+}
